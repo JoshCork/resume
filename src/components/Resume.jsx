@@ -71,7 +71,7 @@ const Resume = () => {
             <p className="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
               Throughout my career, I've been a high performer because I love what I do and have a blast working closely 
               with my team to build innovative products that make a real impact on businesses and the people who use them. 
-              Currently architecting AI-powered solutions using computer vision and large language models, while building 
+              Currently building AI-powered solutions using computer vision and large language models, while launching 
               cutting-edge entrepreneurial ventures that leverage the latest AI development tools.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
@@ -104,10 +104,10 @@ const Resume = () => {
                   <p className="text-sm text-slate-600 dark:text-slate-300 mb-3">
                     Point of Sale & Self-Checkout Solutions
                   </p>
-                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                    <li>• Product owner for AI-powered POS solutions using computer vision and LLMs</li>
-                    <li>• Lead open source GitHub repositories for customer optimization</li>
-                    <li>• Drive "developing in the open" strategy for AI capabilities showcase</li>
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Product owner for AI-powered POS solutions using computer vision and LLMs</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Lead open source GitHub repositories for customer optimization</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Drive "developing in the open" strategy for AI capabilities showcase</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -118,10 +118,10 @@ const Resume = () => {
                   <CardDescription>May 2023 - September 2024 • Intel Corporation</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                    <li>• Hand-selected to lead new entertainment and casino gaming vertical</li>
-                    <li>• Designed solutions for NFL stadiums and Las Vegas venues</li>
-                    <li>• Successfully established and scaled new business unit</li>
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Hand-selected to lead new entertainment and casino gaming vertical</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Designed solutions for NFL stadiums and Las Vegas venues</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Successfully established and scaled new business unit</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -132,9 +132,9 @@ const Resume = () => {
                   <CardDescription>February 2021 - May 2023 • Intel Corporation</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                    <li>• Led product strategy for four diverse global teams</li>
-                    <li>• Established customer-obsessed modern product management practices</li>
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Led product strategy for four diverse global teams</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Established customer-obsessed modern product management practices</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -158,11 +158,11 @@ const Resume = () => {
                   <p className="text-sm text-slate-600 dark:text-slate-300 mb-3">
                     AI-First Technology Solutions for In-Home Care Providers
                   </p>
-                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                    <li>• Built AI-first CRM with intelligent lead pipeline management</li>
-                    <li>• Developed real-time AI voice assistant for sales training</li>
-                    <li>• Engineered call analysis system using real-time AI APIs</li>
-                    <li>• Rapid deployment using Cursor and Claude Code in 6 months</li>
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Built AI-first CRM with intelligent lead pipeline management</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Developed real-time AI voice assistant for sales training</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Engineered call analysis system using real-time AI APIs</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Rapid deployment using Cursor and Claude Code in 6 months</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -176,10 +176,10 @@ const Resume = () => {
                   <p className="text-sm text-slate-600 dark:text-slate-300 mb-3">
                     Agricultural Technology - Sheep Production
                   </p>
-                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                    <li>• Comprehensive farm management platform for sheep producers</li>
-                    <li>• Mobile and web applications streamlining farm operations</li>
-                    <li>• AI-assisted development for rapid prototyping</li>
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Comprehensive farm management platform for sheep producers</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Mobile and web applications streamlining farm operations</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">AI-assisted development for rapid prototyping</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -193,10 +193,10 @@ const Resume = () => {
                   <p className="text-sm text-slate-600 dark:text-slate-300 mb-3">
                     Agricultural Technology - Livestock Breeding
                   </p>
-                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                    <li>• End-to-end business operations platform for breeding operations</li>
-                    <li>• CRM and order fulfillment systems for modernized customer interactions</li>
-                    <li>• Best practices frameworks for quality product delivery</li>
+                  <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">End-to-end business operations platform for breeding operations</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">CRM and order fulfillment systems for modernized customer interactions</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Best practices frameworks for quality product delivery</li>
                   </ul>
                 </CardContent>
               </Card>
