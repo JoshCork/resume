@@ -30,23 +30,29 @@ const Resume = () => {
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-4">
               AI Solution Architect & Product Owner
             </p>
-            <div className="flex items-center justify-center gap-6 text-sm text-slate-500 dark:text-slate-400">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-sm text-slate-500 dark:text-slate-400">
               <a href="mailto:joshua.cork@intel.com" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
                 <Mail className="h-4 w-4" />
-                joshua.cork@intel.com
+                <span className="hidden sm:inline">joshua.cork@intel.com</span>
+                <span className="sm:hidden">Email</span>
               </a>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                Chandler, Arizona
+                <span className="hidden sm:inline">Chandler, Arizona</span>
+                <span className="sm:hidden">Arizona</span>
               </div>
-              <a href="https://www.linkedin.com/in/joshuacork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
-                <Linkedin className="h-4 w-4" />
-                /in/joshuacork
-              </a>
-              <a href="https://github.com/JoshCork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
-                <Github className="h-4 w-4" />
-                JoshCork
-              </a>
+              <div className="flex gap-3 sm:gap-6">
+                <a href="https://www.linkedin.com/in/joshuacork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
+                  <Linkedin className="h-4 w-4" />
+                  <span className="hidden sm:inline">/in/joshuacork</span>
+                  <span className="sm:hidden">LinkedIn</span>
+                </a>
+                <a href="https://github.com/JoshCork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
+                  <Github className="h-4 w-4" />
+                  <span className="hidden sm:inline">JoshCork</span>
+                  <span className="sm:hidden">GitHub</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
