@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import { Mail, MapPin, Linkedin, Code, Briefcase, GraduationCap, Award, Rocket } from 'lucide-react';
+import { Mail, MapPin, Linkedin, Code, Sparkles, GraduationCap, Award, Rocket, Github } from 'lucide-react';
 import { ThemeToggle } from '@/components/theme-toggle';
 
 const Resume = () => {
@@ -31,18 +31,22 @@ const Resume = () => {
               AI Solution Architect & Product Owner
             </p>
             <div className="flex items-center justify-center gap-6 text-sm text-slate-500 dark:text-slate-400">
-              <div className="flex items-center gap-2">
+              <a href="mailto:joshua.cork@intel.com" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
                 <Mail className="h-4 w-4" />
                 joshua.cork@intel.com
-              </div>
+              </a>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
                 Chandler, Arizona
               </div>
-              <div className="flex items-center gap-2">
+              <a href="https://www.linkedin.com/in/joshuacork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
                 <Linkedin className="h-4 w-4" />
                 /in/joshuacork
-              </div>
+              </a>
+              <a href="https://github.com/JoshCork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
+                <Github className="h-4 w-4" />
+                JoshCork
+              </a>
             </div>
           </div>
         </div>
@@ -53,7 +57,7 @@ const Resume = () => {
         <Card className="mb-8 shadow-lg">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Briefcase className="h-5 w-5" />
+              <Sparkles className="h-5 w-5" />
               About Me
             </CardTitle>
           </CardHeader>
@@ -88,7 +92,7 @@ const Resume = () => {
               <Card className="shadow-lg">
                 <CardHeader>
                   <CardTitle className="text-lg">AI Solution Architect & Product Owner</CardTitle>
-                  <CardDescription>September 2024 - Present • HEC Consumer Industries Group</CardDescription>
+                  <CardDescription>September 2024 - Present • Intel - Consumer Industries - Retail</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-slate-600 dark:text-slate-300 mb-3">
@@ -222,7 +226,7 @@ const Resume = () => {
                   <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4">
                     <h4 className="font-medium">Solution Developer</h4>
                     <p className="text-sm text-slate-500 dark:text-slate-400">January 2013 - May 2017</p>
-                    <p className="text-sm text-slate-600 dark:text-slate-300">Built cutting-edge software solutions integrating with prototype hardware for supply chain multisensor fusion, presented Intel Connected Logistics Platform at Google Cloud Next 2017</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-300">Developed IoT supply chain platform with multisensor fusion • Featured speaker at Google Cloud Next 2017</p>
                   </div>
                   <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4">
                     <h4 className="font-medium">Business Intelligence Manager</h4>
