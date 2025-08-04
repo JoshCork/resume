@@ -31,9 +31,9 @@ const Resume = () => {
               AI Solution Architect & Product Owner
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-sm text-slate-500 dark:text-slate-400">
-              <a href="mailto:joshua.cork@intel.com" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
+              <a href="mailto:joshua.cork@gmail.com" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
                 <Mail className="h-4 w-4" />
-                <span className="hidden sm:inline">joshua.cork@intel.com</span>
+                <span className="hidden sm:inline">joshua.cork@gmail.com</span>
                 <span className="sm:hidden">Email</span>
               </a>
               <div className="flex items-center gap-2">
