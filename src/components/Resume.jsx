@@ -69,18 +69,30 @@ const Resume = () => {
           </CardHeader>
           <CardContent>
             <p className="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
-              Throughout my career, I've been a high performer because I love what I do and have a blast working closely
-              with my team to build innovative products that make a real impact on businesses and the people who use them.
-              Currently building AI-powered solutions using computer vision and large language models, while launching
-              entrepreneurial ventures that leverage the latest AI development tools.
+              Throughout my career I've been a high performer because I love what I do and have a blast
+              working closely with my developer teams to build innovative products that make a real impact
+              on businesses and the people who use them. Currently I'm shipping AI-powered solutions in
+              retail using computer vision and large language models, while launching entrepreneurial
+              ventures that leverage the latest AI development tools — including a home care platform
+              running real-time voice AI, multi-stage Claude call analysis, and a 14-agent Claude Code
+              workflow that ships the product itself.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
+              <Badge variant="secondary">Agentic AI</Badge>
+              <Badge variant="secondary">MCP (Model Context Protocol)</Badge>
+              <Badge variant="secondary">Multi-Provider LLM Routing</Badge>
+              <Badge variant="secondary">Real-Time Voice AI</Badge>
+              <Badge variant="secondary">RAG &amp; Prompt Engineering</Badge>
+              <Badge variant="secondary">Multi-Agent Dev Workflows</Badge>
+              <Badge variant="secondary">Local LLMs (Qwen, MLX)</Badge>
+              <Badge variant="secondary">Python · Linux</Badge>
+              <Badge variant="secondary">Next.js · Supabase · Inngest</Badge>
+              <Badge variant="secondary">Tailscale</Badge>
+              <Badge variant="secondary">Responsible AI for Regulated Verticals</Badge>
               <Badge variant="secondary">Computer Vision</Badge>
-              <Badge variant="secondary">Large Language Models</Badge>
-              <Badge variant="secondary">AI-Assisted Development</Badge>
-              <Badge variant="secondary">Product Management</Badge>
-              <Badge variant="secondary">IoT/Edge Computing</Badge>
-              <Badge variant="secondary">Entrepreneurship</Badge>
+              <Badge variant="secondary">Retail &amp; Edge Compute</Badge>
+              <Badge variant="secondary">Open Source DevRel</Badge>
+              <Badge variant="secondary">Startup Advisory</Badge>
             </div>
           </CardContent>
         </Card>
