@@ -257,7 +257,7 @@ const Resume = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <GraduationCap className="h-5 w-5" />
-                  Education
+                  Education & Certifications
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -268,6 +268,14 @@ const Resume = () => {
                 <div>
                   <h4 className="font-medium">Bachelor of Science, Information Systems</h4>
                   <p className="text-sm text-slate-500 dark:text-slate-400">Arizona State University • 1996-2001</p>
+                </div>
+                <div>
+                  <h4 className="font-medium">Blockchain Developer Nano-Degree</h4>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">Udacity • 2019 • Exceeds Expectations</p>
+                </div>
+                <div>
+                  <h4 className="font-medium">Intel Harvard Leadership Challenge</h4>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">Harvard Business Publishing • 2022</p>
                 </div>
               </CardContent>
             </Card>
