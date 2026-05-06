@@ -38,13 +38,13 @@ const Resume = () => {
               </a>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span className="hidden sm:inline">Chandler, Arizona</span>
+                <span className="hidden sm:inline">Gilbert, Arizona</span>
                 <span className="sm:hidden">Arizona</span>
               </div>
               <div className="flex gap-3 sm:gap-6">
-                <a href="https://www.linkedin.com/in/joshuacork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
+                <a href="https://www.linkedin.com/in/joshcork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
                   <Linkedin className="h-4 w-4" />
-                  <span className="hidden sm:inline">/in/joshuacork</span>
+                  <span className="hidden sm:inline">/in/joshcork</span>
                   <span className="sm:hidden">LinkedIn</span>
                 </a>
                 <a href="https://github.com/JoshCork" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-slate-700 dark:hover:text-slate-200 transition-colors">
@@ -69,10 +69,10 @@ const Resume = () => {
           </CardHeader>
           <CardContent>
             <p className="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
-              Throughout my career, I've been a high performer because I love what I do and have a blast working closely 
-              with my team to build innovative products that make a real impact on businesses and the people who use them. 
-              Currently building AI-powered solutions using computer vision and large language models, while launching 
-              cutting-edge entrepreneurial ventures that leverage the latest AI development tools.
+              Throughout my career, I've been a high performer because I love what I do and have a blast working closely
+              with my team to build innovative products that make a real impact on businesses and the people who use them.
+              Currently building AI-powered solutions using computer vision and large language models, while launching
+              entrepreneurial ventures that leverage the latest AI development tools.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               <Badge variant="secondary">Computer Vision</Badge>
@@ -94,7 +94,7 @@ const Resume = () => {
                 <Code className="h-6 w-6" />
                 Recent Leadership Roles
               </h2>
-              
+
               <Card className="shadow-lg">
                 <CardHeader>
                   <CardTitle className="text-lg">AI Solution Architect & Product Owner</CardTitle>
@@ -120,7 +120,7 @@ const Resume = () => {
                 <CardContent>
                   <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Hand-selected to lead new entertainment and casino gaming vertical</li>
-                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Designed solutions for NFL stadiums and Las Vegas venues</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Designed solutions for entertainment venues and Las Vegas casinos</li>
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Successfully established and scaled new business unit</li>
                   </ul>
                 </CardContent>
@@ -151,7 +151,7 @@ const Resume = () => {
 
               <Card className="shadow-lg">
                 <CardHeader>
-                  <CardTitle className="text-lg">Home Care Copilot</CardTitle>
+                  <CardTitle className="text-lg">HomecareCopilot</CardTitle>
                   <CardDescription>Founder • 2024 - Present</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -162,7 +162,7 @@ const Resume = () => {
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Built AI-first CRM with intelligent lead pipeline management</li>
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Developed real-time AI voice assistant for sales training</li>
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Engineered call analysis system using real-time AI APIs</li>
-                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Rapid deployment using Cursor and Claude Code in 6 months</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">In production with real users since October 2025</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -174,10 +174,10 @@ const Resume = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-slate-600 dark:text-slate-300 mb-3">
-                    Agricultural Technology - Sheep Production
+                    Agricultural Technology - Livestock Production
                   </p>
                   <ul className="text-sm text-slate-600 dark:text-slate-300 space-y-2 pl-5">
-                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Comprehensive farm management platform for sheep producers</li>
+                    <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Farm management platform for swine, sheep, and goat producers</li>
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">Mobile and web applications streamlining farm operations</li>
                     <li className="relative before:content-['•'] before:absolute before:-left-4 before:text-slate-600 dark:before:text-slate-300">AI-assisted development for rapid prototyping</li>
                   </ul>
@@ -208,7 +208,7 @@ const Resume = () => {
         <Card className="shadow-lg mb-8">
           <CardHeader>
             <CardTitle>Complete Professional Journey</CardTitle>
-            <CardDescription>25+ Years of Technology Leadership</CardDescription>
+            <CardDescription>26+ Years of Technology Leadership</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="space-y-6">
@@ -216,7 +216,7 @@ const Resume = () => {
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Intel Corporation</h3>
-                  <Badge variant="outline">25 Years Total</Badge>
+                  <Badge variant="outline">26 Years Total</Badge>
                 </div>
                 <div className="grid gap-4">
                   <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4">
@@ -236,13 +236,13 @@ const Resume = () => {
                   </div>
                   <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4">
                     <h4 className="font-medium">Business Intelligence Manager</h4>
-                    <p className="text-sm text-slate-500 dark:text-slate-400">January 2008 - December 2013</p>
+                    <p className="text-sm text-slate-500 dark:text-slate-400">January 2007 - December 2013</p>
                     <p className="text-sm text-slate-600 dark:text-slate-300">Managed global team of 13 developers, delivered efficiencies for $300M+ network</p>
                   </div>
                   <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4">
                     <h4 className="font-medium">Senior Technical Team Lead & Database Developer</h4>
                     <p className="text-sm text-slate-500 dark:text-slate-400">August 2000 - December 2006</p>
-                    <p className="text-sm text-slate-600 dark:text-slate-300">Built forecasting algorithms for $500M+ supply chain, earned highest team award</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-300">Built forecasting algorithms for $500M+ supply chain</p>
                   </div>
                 </div>
               </div>
@@ -257,7 +257,7 @@ const Resume = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <GraduationCap className="h-5 w-5" />
-                  Education & Certifications
+                  Education
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -268,14 +268,6 @@ const Resume = () => {
                 <div>
                   <h4 className="font-medium">Bachelor of Science, Information Systems</h4>
                   <p className="text-sm text-slate-500 dark:text-slate-400">Arizona State University • 1996-2001</p>
-                </div>
-                <div>
-                  <h4 className="font-medium">Blockchain Developer Nano-Degree</h4>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">Udacity • 2019 • Exceeds Expectations</p>
-                </div>
-                <div>
-                  <h4 className="font-medium">Intel Harvard Leadership Challenge</h4>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">Harvard Business Publishing • 2022</p>
                 </div>
               </CardContent>
             </Card>
